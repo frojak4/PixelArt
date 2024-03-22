@@ -1,0 +1,102 @@
+html {
+    background-image: linear-gradient(-20deg, #100259 0%, #365473 100%);
+    height: 100%;
+    font-family: 'tektur', sans-serif;
+}
+
+.overskrift {
+    text-align: center;
+    -webkit-text-stroke: .5px black;
+    font-weight: 400;
+    color: rgba(255, 166, 0, 0.888);
+    text-shadow: 3px 3px black;
+    
+}
+
+.skrift {
+    font-size: 70px;
+    color: white;
+    -webkit-text-stroke: black 3px;
+    text-shadow: 5px 5px black;
+}
+
+
+
+#container {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#container > div {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+}
+
+#colorSelector {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 500px;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#colorSelector > div{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: 1px solid black;
+}
+
+.blå {
+    background-color: blue;
+}
+
+.rød {
+    background-color: red;
+}
+
+.grønn {
+    background-color: green;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.gul {
+    background-color: yellow;
+}
+
+.svart {
+    background-color: black;
+}
+
+.kvit {
+    background-color: white;
+}
+
+.lilla {
+    background-color: purple;
+}
+
+.lyseblå {
+    background-color: lightblue;
+}
+
+.inputdiv {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
